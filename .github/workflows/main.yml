@@ -1,0 +1,15 @@
+name: Render
+on: 
+  push: 
+    branches: [ "main" ]
+jobs:
+    build: 
+      runs-on: ubuntu-latest
+      steps:
+      - name: Render Deploy Action
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id:
+            srv-chv2oae7avjbv9tapq50?key=x2C0HIB-Xuk
+          api-key: 
+           rnd_JjyoxAzbkZVLqLPwugp0jqXULDSQ
